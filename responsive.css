@@ -22,6 +22,8 @@
         margin: 10px 0;
     }
 
+
+
     .process-section-image img {
         height: 100%;
         width: 100%;
@@ -346,47 +348,33 @@
         width: 100%;
     }
 
+    .language-section {
+        padding: 50px 20px;
+    }
+
     .lang-heading-items-txt1 {
-        font-size: 15px;
+        font-size: 1.3rem;
     }
 
     .lang-heading-items-txt2 {
-        font-size: 24px;
-        font-weight: 200px;
+        font-size: 2.8rem;
+        max-width: 100%;
     }
 
     .language-btn {
-        display: flex;
-        padding: 10px;
-        margin: 20px 0;
-        border: 1px solid transparent;
-        background: linear-gradient(#fff, #fff) padding-box, linear-gradient(90deg, #577ABA 0%, #A26C89 50%, #E5605F 100%) border-box;
-        border-radius: 40px;
-    }
-
-    .language-btn-items {
-        display: flex;
-        gap: 5px;
+        padding: 15px;
     }
 
     .language-btn a {
-        font-size: 10px;
-        text-decoration: none;
-        color: black;
+        font-size: 16px;
+    }
+
+    .language-btn-txt {
+        font-size: 18px;
     }
 
     .lang-btn {
-        display: flex;
-        padding: 8px 10px;
-        border: 2px solid transparent;
-        background: linear-gradient(#fff, #fff) padding-box, linear-gradient(90deg, #577ABA 0%, #A26C89 50%, #E5605F 100%) border-box;
-        border-radius: 30px;
-        text-align: center;
-    }
-
-    .lang-btn-text {
-        font-size: 8px;
-        float: none;
+        padding: 12px 18px;
     }
 
     .process-section-image img {
@@ -395,9 +383,14 @@
     }
 
     .sidebar {
-        display: block;
-        gap: 15px;
+        display: flex;
+        gap: 0px;
         margin: 0;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin-top: 40px;
+        text-align: left;
     }
 
     .sidebar-menu {
@@ -416,6 +409,7 @@
         font-size: 12px;
         color: rgba(0, 0, 0, 0.749);
         text-transform: capitalize;
+        text-align: left;
 
     }
 
@@ -679,6 +673,66 @@
     .hero-section {
         padding: 30px;
         width: 100%;
+    }
+
+    .language-section {
+        padding: 40px 15px;
+    }
+
+    .languages-sec1 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .lang-heading-items-txt1 {
+        font-size: 1.1rem;
+        text-align: center;
+    }
+
+    .lang-heading-items-txt2 {
+        font-size: 2rem;
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .language-wrap {
+        display: flex;
+    }
+
+    .language-btn {
+        display: flex;
+        max-width: fit-content;
+        gap: 20px;
+        padding: 20px;
+        margin: 20px 0;
+        border: 1px solid transparent;
+        background: linear-gradient(#fff, #fff) padding-box, linear-gradient(90deg, #577ABA 0%, #A26C89 50%, #E5605F 100%) border-box;
+        border-radius: 40px;
+    }
+
+    .language-btn-items {
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .language-btn a {
+        font-size: 15px;
+    }
+
+    .language-btn-txt {
+        font-size: 16px;
+    }
+
+
+    .lang-btn {
+        width: 100%;
+        padding: 12px;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .lang-btn-text {
+        float: none;
     }
 
     .languages-grid {
@@ -1041,5 +1095,60 @@
 
     .pricing-btn {
         font-size: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .lang-heading-items-txt2 {
+        font-size: 1.6rem;
+    }
+
+    .language-wrap {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .language-wrap .row {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .language-wrap .col-md-3 {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .language-btn {
+        width: 90%;
+        max-width: 320px;
+    }
+
+
+    .language-btn {
+        display: flex;
+        max-width: fit-content;
+        gap: 20px;
+        padding: 20px;
+        margin: 20px 0;
+        border: 1px solid transparent;
+        background: linear-gradient(#fff, #fff) padding-box, linear-gradient(90deg, #577ABA 0%, #A26C89 50%, #E5605F 100%) border-box;
+        border-radius: 40px;
+    }
+
+    .language-btn-items img {
+        width: 24px;
+        height: 24px;
+    }
+
+    .language-btn-txt {
+        font-size: 14px;
+    }
+
+    .language-btn a {
+        font-size: 14px;
     }
 }

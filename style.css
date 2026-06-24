@@ -340,9 +340,6 @@ header {
 }
 
 .lang-btn-text {
-    /* border: 2px solid transparent;
-    background: linear-gradient(#fff, #fff) padding-box, linear-gradient(90deg, #577ABA 0%, #A26C89 50%, #E5605F 100%) border-box;
-    border-radius: 30px; */
     float: right;
 }
 
@@ -370,8 +367,7 @@ header {
 
 .sidebar-title {
     font-size: 56px;
-
-    font-weight: 200px;
+    font-weight: 200;
     word-wrap: break-word;
     text-transform: capitalize;
 }
