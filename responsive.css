@@ -720,7 +720,8 @@
     }
 
     .language-btn-txt {
-        font-size: 16px;
+        font-size: 14px;
+        font-weight: 100;
     }
 
 
@@ -733,6 +734,82 @@
 
     .lang-btn-text {
         float: none;
+    }
+
+    .process-section-image img {
+        height: 100%;
+        width: 100%;
+    }
+
+    .sidebar {
+        display: flex;
+        gap: 0px;
+        margin: 0;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin-top: 40px;
+        text-align: left;
+    }
+
+    .sidebar-menu {
+        font-size: 18px;
+
+    }
+
+    .sidebar-title {
+        font-size: 32px;
+        font-weight: 200px;
+        word-wrap: break-word;
+        text-transform: capitalize;
+    }
+
+    .sidebar-discription {
+        font-size: 12px;
+        color: rgba(0, 0, 0, 0.749);
+        text-transform: capitalize;
+        text-align: left;
+
+    }
+
+    .project-1 {
+        display: block;
+    }
+
+    .project-item-number {
+        font-family: 'Montserrat';
+        font-weight: 900;
+        font-size: 60px;
+        line-height: 97px;
+        text-transform: capitalize;
+        letter-spacing: 15px;
+        color: transparent;
+        -webkit-text-fill-color: transparent;
+        -webkit-text-stroke: 2px #577ABA;
+    }
+
+    .project-no-1 {
+        margin-right: 30px;
+    }
+
+    .project-no-2 {
+        margin-right: 7px;
+    }
+
+    .project-item-txt1 {
+        font-size: 26px;
+        font-weight: 500;
+        margin: 0;
+        text-transform: capitalize;
+    }
+
+    .project-item-text2 {
+        font-size: 18px;
+        font-size: 200;
+        color: rgba(0, 0, 0, 0.745);
+        letter-spacing: 1px;
+        text-transform: capitalize;
+
     }
 
     .languages-grid {
@@ -1050,6 +1127,10 @@
         width: 100%;
     }
 
+    .languages-section {
+        margin: 0 25px;
+    }
+
     .languages-grid {
         display: flex;
         gap: 10px;
@@ -1096,6 +1177,24 @@
     .pricing-btn {
         font-size: 16px;
     }
+
+    .process-wrapper {
+        margin: 25px;
+    }
+
+    .sidebar {
+        margin: 25px 10px 10px;
+    }
+
+
+    .process-section-image img {
+        height: 100%;
+        width: 80%;
+    }
+
+    .team-section {
+        padding: 10px 20px;
+    }
 }
 
 @media (max-width: 480px) {
@@ -1130,7 +1229,7 @@
 
     .language-btn {
         display: flex;
-        max-width: fit-content;
+        max-width: 100%;
         gap: 20px;
         padding: 20px;
         margin: 20px 0;
@@ -1150,5 +1249,22 @@
 
     .language-btn a {
         font-size: 14px;
+    }
+
+    .process-wrapper {
+        margin: 25px;
+    }
+
+    .sidebar {
+        margin: 25px 10px 10px;
+    }
+
+    .process-section-image img {
+        height: 100%;
+        width: 70%;
+    }
+
+    .team-section {
+        padding: 10px 20px;
     }
 }
