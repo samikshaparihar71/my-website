@@ -1326,9 +1326,11 @@
         max-width: 100%;
         height: auto;
         min-height: 450px;
-        background-size: cover;
+        background-size: contain;
         background-position: right center;
     }
+
+
 
     .pricing-card1 {
         padding: 15px;
