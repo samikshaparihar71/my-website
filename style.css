@@ -37,6 +37,14 @@ header {
     gap: 10px;
 }
 
+#checkbtn {
+    float: right;
+    display: none;
+}
+
+#check {
+    display: none;
+}
 
 .navbarr {
     display: flex;

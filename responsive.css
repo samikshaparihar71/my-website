@@ -640,22 +640,9 @@
         position: relative;
     }
 
-    .topbar {
-        flex-direction: column;
-        gap: 10px;
-        text-align: center;
-        padding: 15px;
-        margin: 10px;
-        width: calc(100% - 20px);
-    }
-
     .topbar-contact {
         flex-direction: column;
         gap: 5px;
-    }
-
-    .topbar-social {
-        justify-content: center;
     }
 
     .navbarr {
@@ -663,11 +650,6 @@
         gap: 15px;
         margin: 10px;
         width: calc(100% - 20px);
-    }
-
-    .navbarr-left {
-        justify-content: center;
-        width: 100%;
     }
 
     .nav-manu {
@@ -1112,16 +1094,36 @@
         font-size: 11px;
     }
 
+
     .navbarr {
         padding: 12px;
     }
 
-    .navbarr-left {
-        gap: 15px;
+    .navbarr ul {
+        width: 100%;
+        height: 100vh;
+        background-color: #492A2A;
+        position: fixed;
+        top: 80px;
+        left: -100%;
+        transition: .5s;
     }
 
-    .nav-manu ul {
-        gap: 8px;
+    .navbarr ul li {
+        display: block;
+        text-align: center;
+    }
+
+    .logo {
+        margin-top: -60px
+    }
+
+    #checkbtn {
+        display: block;
+    }
+
+    .navbarr-left {
+        gap: 15px;
     }
 
     .nav-manu ul li a {
@@ -1236,6 +1238,9 @@
         margin: 25px 10px 10px;
     }
 
+    .process-section-image {
+        text-align: center;
+    }
 
     .process-section-image img {
         height: 100%;
