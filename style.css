@@ -42,6 +42,15 @@ header {
     display: none;
 }
 
+#checkbtns {
+    float: right;
+    display: none;
+}
+
+#checks {
+    display: none;
+}
+
 #check {
     display: none;
 }
