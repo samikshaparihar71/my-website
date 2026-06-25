@@ -419,8 +419,6 @@
 
     .sidebar-title {
         font-size: 32px;
-        font-weight: 200px;
-        word-wrap: break-word;
         text-transform: capitalize;
     }
 
@@ -590,10 +588,7 @@
 
     .footer-cta-section {
         padding: 20px 0;
-        background-image: url('img/footer-bg.png');
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center center;
+        background-color: black;
     }
 
     .footer-header {
@@ -806,9 +801,8 @@
     }
 
     .sidebar-title {
-        font-size: 32px;
-        font-weight: 200px;
-        word-wrap: break-word;
+        font-size: 22px;
+        font-weight: 500;
         text-transform: capitalize;
     }
 
@@ -827,7 +821,7 @@
     .project-item-number {
         font-family: 'Montserrat';
         font-weight: 900;
-        font-size: 60px;
+        font-size: 66px;
         line-height: 97px;
         text-transform: capitalize;
         letter-spacing: 15px;
@@ -836,17 +830,11 @@
         -webkit-text-stroke: 2px #577ABA;
     }
 
-    .project-no-1 {
-        margin-right: 30px;
-    }
 
-    .project-no-2 {
-        margin-right: 7px;
-    }
 
     .project-item-txt1 {
-        font-size: 26px;
-        font-weight: 500;
+        font-size: 20px;
+        font-weight: 400;
         margin: 0;
         text-transform: capitalize;
     }
@@ -880,11 +868,11 @@
     }
 
     .languages-header {
-        font-size: 28px;
+        font-size: 1.1rem;
     }
 
     .languages-title {
-        font-size: 32px;
+        font-size: 22px;
         font-weight: 500;
     }
 
@@ -897,7 +885,7 @@
         font-family: 'Montserrat';
         font-style: normal;
         font-weight: 700;
-        font-size: 84px;
+        font-size: 66px;
         line-height: 97px;
         color: transparent;
         -webkit-text-fill-color: transparent;
@@ -925,15 +913,15 @@
     }
 
     .team-label {
-        font-size: 28px;
+        font-size: 1.1rem;
     }
 
     .team-title {
-        font-size: 32px;
+        font-size: 22px;
     }
 
     .team-count {
-        font-size: 60px;
+        font-size: 66px;
         font-family: "Montserrat", sans-serif;
         color: transparent;
         -webkit-text-fill-color: transparent;
@@ -953,6 +941,7 @@
         padding: 10px 30px;
         border-radius: 30px;
         max-width: fit-content;
+        margin: 20px 0 30px 0;
 
     }
 
@@ -1257,6 +1246,10 @@
         display: flex;
         gap: 10px;
         flex-wrap: wrap;
+    }
+
+    .footer-cta-section {
+        background-color: black;
     }
 
     .footer-header {

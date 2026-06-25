@@ -300,7 +300,6 @@ header {
 
 .lang-heading-items-txt2 {
     font-size: 3.5rem;
-
     font-weight: 200px;
     max-width: 85%;
 }
@@ -370,8 +369,7 @@ header {
 
 .sidebar-title {
     font-size: 56px;
-    font-weight: 200;
-    word-wrap: break-word;
+    font-weight: 200px;
     text-transform: capitalize;
 }
 
