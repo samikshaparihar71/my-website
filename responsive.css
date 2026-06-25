@@ -641,8 +641,12 @@
     }
 
     .topbar-contact {
-        flex-direction: column;
-        gap: 5px;
+        display: none;
+    }
+
+    .topbar-icons {
+        display: flex;
+        gap: 20px;
     }
 
     .navbarr {
@@ -662,6 +666,8 @@
 
     .navbarr {
         padding: 12px;
+        display: flex;
+        align-items: center;
     }
 
     .navbarr ul {
@@ -697,10 +703,8 @@
     }
 
     .contact-btn {
-        padding: 5px 6px;
-        max-width: fit-content;
-        margin: 20px 0;
-        border-radius: 100px;
+        padding: 8px 12px;
+        display: none;
     }
 
     .hero-section {
