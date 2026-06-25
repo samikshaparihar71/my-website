@@ -578,6 +578,7 @@ header {
     padding-top: 10px;
     display: flex;
     flex-direction: column;
+    gap: 25px;
     justify-content: space-between;
 
 }
