@@ -1348,3 +1348,16 @@
         padding: 12px;
     }
 }
+
+@media (max-width:380px) {
+    .pricing-card {
+        background-image: url(img/pricing-image.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        max-width: 100%;
+        min-height: 350px;
+        height: auto;
+        padding: 10px;
+    }
+}
