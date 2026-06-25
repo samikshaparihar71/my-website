@@ -264,7 +264,6 @@ header {
 .scroll-card {
     flex: 0 0 auto;
     font-size: 66px;
-
     display: flex;
     align-items: center;
     justify-content: center;

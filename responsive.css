@@ -23,11 +23,6 @@
     }
 
 
-    /* 
-    .process-section-image img {
-        height: 100%;
-        width: 100%;
-    } */
 
     .sidebar {
         display: block;
@@ -792,10 +787,7 @@
         float: none;
     }
 
-    /* .process-section-image img {
-        height: 100%;
-        width: 100%;
-    } */
+
 
     .sidebar {
         display: flex;
@@ -1218,8 +1210,47 @@
         height: 300px;
     }
 
+    .scroll-card {
+        flex: 0 0 auto;
+        font-size: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        margin: 0 10px;
+
+    }
+
+    .lang-heading-items-txt1 {
+        font-size: 1.1rem;
+        text-align: left;
+    }
+
+    .lang-heading-items-txt2 {
+        font-size: 21px;
+        text-align: left;
+        margin-bottom: 20px;
+    }
+
+    .language-wrap {
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .language-btn {
+        display: flex;
+        max-width: fit-content;
+        gap: 20px;
+        padding: 20px;
+        margin: 20px 0;
+        border: 1px solid transparent;
+        background: linear-gradient(#fff, #fff) padding-box, linear-gradient(90deg, #577ABA 0%, #A26C89 50%, #E5605F 100%) border-box;
+        border-radius: 40px;
+    }
+
     .languages-section {
-        margin: 0 25px;
+        padding: 40px 15px;
     }
 
     .languages-grid {
@@ -1309,6 +1340,10 @@
         padding: 12px 20px;
     }
 
+    .process-section {
+        padding: 40px 15px;
+    }
+
     .process-wrapper {
         margin: 25px;
     }
@@ -1333,9 +1368,6 @@
 
 @media (max-width: 480px) {
 
-    .lang-heading-items-txt2 {
-        font-size: 1.6rem;
-    }
 
     .language-wrap {
         display: flex;
@@ -1344,22 +1376,10 @@
         justify-content: center;
     }
 
-    .language-wrap .row {
-        width: 100%;
-        justify-content: center;
-    }
-
-    .language-wrap .col-md-3 {
-        width: 100%;
-        display: flex;
-        justify-content: center;
-    }
-
     .language-btn {
-        width: 90%;
+        width: 100%;
         max-width: 320px;
     }
-
 
     .language-btn {
         display: flex;
@@ -1386,11 +1406,11 @@
     }
 
     .process-wrapper {
-        margin: 25px;
+        margin: 0;
     }
 
     .sidebar {
-        margin: 25px 10px 10px;
+        margin: 25px 0 0 0;
     }
 
 
