@@ -646,34 +646,61 @@
     }
 
     .navbarr {
-        flex-direction: column;
-        gap: 15px;
+        flex-direction: row;
         margin: 10px;
         width: calc(100% - 20px);
     }
 
-    .nav-manu {
+    .topbar {
+        padding: 12px;
+    }
+
+    .topbar-contact {
+        font-size: 11px;
+    }
+
+
+    .navbarr {
+        padding: 12px;
+    }
+
+    .navbarr ul {
         width: 100%;
+        height: 100vh;
+        background-color: #492A2A;
+        position: fixed;
+        top: 80px;
+        left: -100%;
+        transition: .5s;
     }
 
-    .nav-manu ul {
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 10px;
-        padding-left: 0;
+    .navbarr ul li {
+        display: block;
+        text-align: center;
     }
 
-    .nav-manu ul li {
-        margin: 0;
+    .logo {
+        margin-top: 0;
+    }
+
+
+    #checkbtn {
+        display: block;
+    }
+
+    .navbarr-left {
+        gap: 15px;
     }
 
     .nav-manu ul li a {
-        font-size: 14px;
+        font-size: 13px;
     }
 
     .contact-btn {
-        width: 100%;
-        text-align: center;
+        padding: 5px 6px;
+        max-width: fit-content;
+        margin: 20px 0;
+        border-radius: 100px;
     }
 
     .hero-section {
@@ -1097,6 +1124,8 @@
 
     .navbarr {
         padding: 12px;
+        display: flex;
+        align-items: center;
     }
 
     .navbarr ul {
@@ -1115,8 +1144,9 @@
     }
 
     .logo {
-        margin-top: -60px
+        margin-top: 0;
     }
+
 
     #checkbtn {
         display: block;
@@ -1132,6 +1162,7 @@
 
     .contact-btn {
         padding: 8px 12px;
+        display: none;
     }
 
     .hero-section {
