@@ -87,14 +87,9 @@ header {
     margin: 0 30px;
 }
 
-/* @media (max-width:640px) {
-    .navbarr {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 5px;
+#check:checked~ul {
+    left: 0;
 }
-} */
 
 .contact-btn {
     border: 2px solid transparent;
