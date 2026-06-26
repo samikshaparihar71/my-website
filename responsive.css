@@ -1364,7 +1364,7 @@
 
     .language-wrap {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
         justify-content: center;
     }
@@ -1376,9 +1376,8 @@
 
     .language-btn {
         display: flex;
-        max-width: 100%;
-        gap: 20px;
-        padding: 20px;
+        max-width: fit-content;
+        padding: 10px;
         margin: 20px 0;
         border: 1px solid transparent;
         background: linear-gradient(#fff, #fff) padding-box, linear-gradient(90deg, #577ABA 0%, #A26C89 50%, #E5605F 100%) border-box;
@@ -1386,12 +1385,12 @@
     }
 
     .language-btn-items img {
-        width: 24px;
-        height: 24px;
+        width: 20px;
+        height: 20px;
     }
 
     .language-btn-txt {
-        font-size: 14px;
+        font-size: 10px;
     }
 
     .language-btn a {
