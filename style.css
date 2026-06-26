@@ -38,8 +38,12 @@ header {
 }
 
 #checkbtn {
+    font-size: 20px;
+    color: black;
     float: right;
+    line-height: 80px;
     display: none;
+    cursor: pointer;
 }
 
 #checkbtns {
@@ -96,9 +100,6 @@ header {
     margin: 0 30px;
 }
 
-#check:checked~ul {
-    left: 0;
-}
 
 .contact-btn {
     border: 2px solid transparent;
@@ -108,17 +109,6 @@ header {
 
 }
 
-
-/* .contact-btn ::after {
-    content: '';
-    position: absolute;
-    height: 107%;
-    width: 102%;
-    border-radius: 100px;
-    background-image: linear-gradient(to bottom right, #577ABA, #A26C89, #E5605F);
-    z-index: -1;
-
-} */
 
 .contact-btn a {
     color: black;
